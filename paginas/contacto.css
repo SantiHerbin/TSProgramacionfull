@@ -1,0 +1,296 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+.padre{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+   .header{
+     background-position: center;
+     background-attachment: contain;
+     background-size: cover;
+     display: flex;
+     flex-flow: column nowrap;
+     background: -webkit-linear-gradient(to right, hsla(206, 88%, 60%, 0.459), hsla(207, 99%, 32%, 0.664)), url(../img/header.jpg);
+     /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, hsla(206, 88%, 60%, 0.459), hsla(207, 99%, 32%, 0.664)), url(../img/header.jpg);
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+     height: 657px;
+
+
+    }
+       .menu{
+         background: rgba(0,0,0,.6);
+         display: flex;
+         flex-flow: row nowrap;
+         height: auto;
+         width: 100%;
+         align-items: center;
+         border-bottom: 1px solid #D4DEE6;
+         padding: 20px 20px;
+        }
+           .logo{
+             flex: 1 1 auto;
+           }
+                .logo a{
+                  color: #fff;
+                  font-size: 27px;
+                }
+                .logo a:hover{
+                  color: #D4DEE6;
+                }
+           .nav{
+             flex: 5 1 auto;
+             display: flex;
+             padding: 10px 40px 10px 30px;
+           }
+                .nav a{
+                  color: #fff;
+                  font-size: 85%;
+                  text-transform: uppercase;
+                  padding: 0 20px;
+                  letter-spacing: 2px;
+                }
+                .nav a:hover{
+                  color: #D4DEE6;
+                }
+                .nav i{
+                  padding: 0 10px;
+                }
+           .social{
+             flex: 1 1 auto;
+             display: flex;
+           }
+               .social a{
+                 font-size: 22px;
+                 color: #fff;
+                 padding: 0 5px;
+               }
+               .social a:hover{
+                 color: #D4DEE6;
+               }
+      .texto-principal{
+         height: 657px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+      }
+           .texto-principal h1{
+             font-family: sans-serif;
+             font-size: 50px;
+             font-weight: 300px;
+             text-align: center;
+             line-height: 1.6;
+             color: #fff;
+           }
+           .section{
+             background: #f2f2f2;
+             display: flex;
+             height: auto;
+             flex-direction: column;
+             width:100%;
+            }
+
+                     .principal{
+                       padding: 80px 20px 80px 20px;
+                       margin: 20px auto;
+                       height: auto;
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       width: 100%;
+                       border-bottom: 3px solid #D4DEE6;
+                     }
+                     .div1{
+                       display: flex;
+                       flex-direction: column;
+                       padding: 0 30px;
+                       width: 50%;
+                       height: auto;
+                       align-items: center;
+                     }
+                            .div1 h1{
+                              color: #1B4973;
+                              padding: 20px 0;
+                              text-align: center;
+                            }
+                            .div1 h2{
+                               color: #1C6FB1;
+                               padding: 25px 0 20px 0;
+                               text-align: center;
+                            }
+                     .div2{
+                       display: flex;
+                       flex-direction: column;
+                       padding: 0px 30px;
+                       width: 50%;
+                       height: auto;
+                       align-items: center;
+                     }
+                           .div2 h1{
+                              color: #1B4973;
+                              padding: 20px 0;
+                              text-align: center;
+                           }
+                           .div2 h2{
+                             color: #1C6FB1;
+                             padding: 25px 0 20px 0;
+                             text-align: center;
+                           }
+
+                .aside{
+                  display: flex;
+                  background-color: #f2f2f2;
+                  flex-direction: row;
+                  flex: 1 1 auto;
+                  height: auto;
+                  width: 100%;
+                  border-bottom: 3px solid #D4DEE6;
+                  padding: 0px 0px 20px 0px;
+                }
+                     .publicidad{
+                       display: flex;
+                       flex-direction: column;
+                       width: 100%;
+                       height: auto;
+                       text-align: center;
+                       padding: 15px 30px 30px 30px;
+                     }
+                          .publicidad h1{
+                            font-family: sans-serif;
+                            font-size: 35px;
+                            border-bottom: 2px solid #40A4F3;
+                            margin-bottom: 10px;
+                          }
+                            .publicidad h2{
+                              padding: 5px 20px;
+                              text-align: left;
+                              border-bottom: 2px solid #40A4F3;
+                              color: #f2f2f2;
+                              margin-top: 98px;
+                            }
+
+
+                            footer{
+                                background: #414141;
+                                padding: 60px 0 30px 0;
+                                margin: auto;
+                                overflow: hidden;
+                                width: 100%;
+                            }
+
+                            .contenedor-footer{
+                                display: flex;
+                                width: 100%;
+                                justify-content: space-evenly;
+                                margin: auto;
+                                padding-bottom: 50px;
+                                border-bottom: 1px solid #ccc;
+                            }
+
+                            .content-foo{
+                                text-align: center;
+                            }
+
+                            .content-foo h4{
+                                color: #fff;
+                                padding-bottom: 5px;
+                                margin-bottom: 10px;
+                                text-align: center;
+                            }
+
+                            .content-foo p{
+                                color: #ccc;
+                                margin-bottom: 20px;
+                                text-align: center;
+                            }
+
+                            .titulo-final{
+                                text-align: center;
+                                font-size: 24px;
+                                margin: 20px 0 0 0;
+                                color: #9e9797;
+                            }
+
+
+                            @media all and (max-width: 1000px){
+                                  .menu{
+                                      flex-direction: column;
+                                  }
+                            }
+
+                            @media all and (max-width: 700px){
+                                 .menu nav{
+                                   flex-direction: column;
+                                 }
+                                      .nav a{
+                                        padding: 15px;
+                                      }
+                                 .texto-principal h1{
+                                     margin-top: 200px;
+                                     font-size: 30px;
+                                 }
+                                 .titulo-principal{
+                                   text-align: center;
+                                 }
+                                 .contenedor-footer{
+                                   flex-direction: column;
+                                 }
+                                 .content-foo h4{
+                                  padding: 10px 0 0 0;
+                                 }
+
+                            }
+
+                            @media all and (max-width: 650px){
+                               .principal{
+                                  flex-direction: column;
+                               }
+                               .div1{
+                                  margin-bottom: 30px;
+                                  border-bottom: 3px solid #D4DEE6;
+                               }
+                               .div1 h3{
+                                  padding: 20px 0 20px 0;
+                               }
+                               .div2{
+                                  border-bottom: 3px solid #D4DEE6;
+                               }
+                               .div2 h3{
+                                  padding: 20px 0 20px 0;
+                               }
+                            }
+
+                            @media all and (max-width: 500px){
+                               .textos{
+                                 font-size: 20px;
+                               }
+                               .introduccion p{
+                                 font-size: 20px;
+                               }
+                            }
+
+                            @media all and (max-width: 400px){
+                               .textos{
+                                 font-size: 18px;
+                                 padding: 35px 12px 65px 12px;
+                               }
+                               .introduccion p{
+                                 font-size: 18px;
+                                 padding: 0 12px 0 12px;
+                               }
+                            }
